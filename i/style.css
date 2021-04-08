@@ -1,0 +1,53 @@
+html:before {
+    background-position: 0% 0%;
+    background-repeat: no-repeat!important;
+    background-image: url("background.jpg?v=0");
+    background-color: #f1f3f5 !important;
+    background-size: cover !important;
+}
+
+html:before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#content {
+    font-size: 13pt;
+    color: #FFF;
+}
+
+#content hr { border-color: #999; }
+
+#brand #logo img {
+    width: 125px; 
+    height: 125px;
+    border-radius: 50%;
+}
+
+#brand #title {
+    /* text stroke */
+    text-shadow: -1px -1px 0 #333, 1px -1px 0 #333, -1px 1px 0 #333, 1px 1px 0 #333;
+}
+
+#links .row {
+    background: #272727;
+    box-shadow: none;
+    border-color: #272727;
+    border-radius: 3px;
+}
+
+#links .row:hover {
+    background: #27272799;
+}
+
+#links .row a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none !important;
+}
