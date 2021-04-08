@@ -17,17 +17,12 @@ html:before {
 }
 
 #content {
-    font-size: 1rem;
-}
-
-@media all and (max-device-width: 720px){
-    #content {
-        font-size: 3rem;
-    }
-}
-
-#content {
     color: #FFF;
+    font-size: 4vmin;
+}
+
+#content.mobile {
+    font-size: 3rem;
 }
 
 #content hr { border-color: #999; }
