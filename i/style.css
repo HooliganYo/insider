@@ -49,9 +49,12 @@ html:before {
     background: #27272799;
 }
 
-#links .row a {
+#links a.row {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-decoration: none !important;
+    
+    padding: 0.5em;
+    margin-bottom: 0.7em;
 }
